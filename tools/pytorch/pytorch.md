@@ -2,7 +2,6 @@
 * https://pytorch.org/
 * code: https://github.com/pytorch/pytorch
 
-
 > PyTorch is a Python package that provides two high-level features:
 >
 > - Tensor computation (like NumPy) with strong GPU acceleration

@@ -58,7 +58,7 @@ books:
 ## NLTK: Natural Language Toolkit
 * NLTK Corpora: http://www.nltk.org/nltk_data/
 
-action: [NLTK.ipynb](./notebooks/tools/nltk/_NLTK.ipynb)
+action: [NLTK.ipynb](../tools/nlp/nltk/NLTK.ipynb)
 
 ## Lemmatization
 
@@ -70,3 +70,4 @@ https://towardsdatascience.com/state-of-the-art-multilingual-lemmatization-f303e
 GloVe vector trained on Wikipedia
 GloVe: Global Vectors for Word Representation
 https://nlp.stanford.edu/projects/glove/
+
