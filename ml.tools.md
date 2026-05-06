@@ -1,6 +1,7 @@
 # Machine Learning Tools
 
 * [Bokeh](./tools/bokeh/bokeh.md): a Python library for creating interactive visualizations for modern web browsers.
+* [CuPy](https://github.com/cupy/cupy): CuPy is a NumPy/SciPy-compatible array library for GPU-accelerated computing with Python. CuPy acts as a drop-in replacement to run existing NumPy/SciPy code on NVIDIA CUDA or AMD ROCm platforms.
 * [Featuretools](https://github.com/alteryx/featuretools): a python library for automated feature engineering.
 * [Gradio](./tools/Gradio.md): Build and share delightful machine learning apps, all in Python.
 * [graphviz](https://pypi.org/project/graphviz/): Simple Python interface for Graphviz.
@@ -17,6 +18,7 @@
 * [SciPy](./tools/scipy/scipy.md)
 * [seaborn](./tools/matplotlib/seaborn.md): statistical data visualization.
 * [statsmodels](./tools/statsmodels/statsmodels.md): a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
+* [Streamlit](https://github.com/streamlit/streamlit): A faster way to build and share data apps. Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps.
 * [SymPy](./tools/sympy/sympy.md): a Python library for symbolic mathematics.
 * [Theano](https://github.com/Theano/Theano): Theano was a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It is being continued as *PyTensor*.
 * [XGBoost](https://github.com/dmlc/xgboost): Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow.
@@ -55,6 +57,11 @@
 # Computer Vision
 * [OpenCV](./tools/opencv/opencv.md): Open Source Computer Vision Library.
 
+# MLOps
+
+* [CML](https://github.com/iterative/cml): Continuous Machine Learning (CML) is an open-source CLI tool for implementing continuous integration & delivery (CI/CD) with a focus on MLOps. Use it to automate development workflows — including machine provisioning, model training and evaluation, comparing ML experiments across project history, and monitoring changing datasets.
+* [MLflow](./tools/llm/MLflow/MLflow.md): The open source AI engineering platform for agents, LLMs, and ML models.
+
 # LLM Tools
 ## Models
 * GPT
@@ -68,7 +75,6 @@
 * [Lang Chain](./tools/llm//LangChain/LangChain.md): LangChain is a software framework that helps facilitate the integration of large language models (LLMs) into applications.
 * [Langflow](./tools/llm/Langflow/Langflow.md): Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
 * [LlamaIndex](./tools/llm/LlamaIndex/LlamaIndex.md): LlamaIndex is the leading document agent and OCR platform.
-* [MLflow](./tools/llm/MLflow/MLflow.md): The open source AI engineering platform for agents, LLMs, and ML models.
 * [Open WebUI](./tools/llm/OpenWebUI/Open%20WebUI.md): Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG, making it a powerful AI deployment solution.
 * [Spring AI](./tools/llm/SpringAI/SpringAI.md): The Spring AI project aims to streamline the development of applications that incorporate artificial intelligence functionality without unnecessary complexity.
 * [smolagents](https://github.com/huggingface/smolagents): smolagents is a library that enables you to run powerful agents in a few lines of code.

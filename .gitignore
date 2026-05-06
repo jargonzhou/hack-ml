@@ -212,3 +212,10 @@ __marimo__/
 ################################################################################
 codes/hugging-face-in-action/c13_mcp/data
 codes/graph-algorithms/datas
+
+codes/nlp/hack-spacy/data
+codes/nlp/hack-spacy/kb
+codes/nlp/hack-spacy/output
+codes/nlp/hack-spacy/language
+codes/nlp/hack-spacy/pipelines
+codes/nlp/hack-spacy/en_ner_fashion_brands-0.0.0

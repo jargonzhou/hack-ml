@@ -8,6 +8,18 @@
 >
 > **Spark NLP** is the only open-source NLP library in **production** that offers state-of-the-art transformers such as **BERT**, **CamemBERT**, **ALBERT**, **ELECTRA**, **XLNet**, **DistilBERT**, **RoBERTa**, **DeBERTa**, **XLM-RoBERTa**, **Longformer**, **ELMO**, **Universal Sentence Encoder**, **Llama-2**, **M2M100**, **BART**, **Instructor**, **E5**, **Google T5**, **MarianMT**, **OpenAI GPT2**, **Vision Transformers (ViT)**, **OpenAI Whisper**, **Llama**, **Mistral**, **Phi**, **Qwen2**, and many more not only to **Python** and **R**, but also to **JVM** ecosystem (**Java**, **Scala**, and **Kotlin**) at **scale** by extending **Apache Spark** natively.
 
+Features
+- Text Preprocessing/文本预处理
+- Parsing and Analysis/解析和分析
+- Sentiment and Classification/情绪和分类
+- Embeddings/嵌入
+- Classification and Question Answering/分类和问答
+- Machine Translation and Generation/机器翻译和生成
+- Image and Speech/图像和语音
+- Integration and Interoperability (ONNX, OpenVINO)/集成和互操作性
+- Pre-trained Models (36000+ in +200 languages)/预训练模型
+- Multi-lingual Support/多语种支持
+
 # Install
 * offline: https://sparknlp.org/docs/en/install#offline
 
@@ -18,3 +30,7 @@ samples - pipeline
 * https://sparknlp.org/models
 
 # See Also
+* [ONNX](https://onnx.ai/): Open Neural Network Exchange. ONNX is an open format built to represent machine learning models. ONNX defines a common set of operators
+  - the building blocks of machine learning and deep learning models, and 
+  - a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers.
+* [OpenVINO](https://github.com/openvinotoolkit/openvino): Open-source software toolkit for optimizing and deploying deep learning models.
