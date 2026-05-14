@@ -40,6 +40,7 @@ $ uv add nertk
 
 # integration
 $ uv add spacy-streamlit
+$ uv add fastapi[standard]
 ```
 
 # Layout

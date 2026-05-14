@@ -9,7 +9,7 @@ spaCy comes with pretrained pipelines and currently supports tokenization and tr
 License: MIT, Language: Python.
 
 Features
-- **Tokenization/f分词**: Segmenting text into words, punctuations marks etc.
+- **Tokenization/分词**: Segmenting text into words, punctuations marks etc.
 - **Part-of-speech (POS) Tagging/词性标注**: Assigning word types to tokens, like verb or noun.
 - **Dependency Parsing/依存句法分析**: Assigning syntactic dependency labels, describing the relations between individual tokens, like subject or object.
 - **Lemmatization/词形还原**: Assigning the base forms of words. For example, the lemma of “was” is “be”, and the lemma of “rats” is “rat”.
@@ -57,6 +57,9 @@ Books
 ## Saving & Loading/保存和加载模型
 ## Memory Management/内存管理
 ## Visualizers/可视化
+* displaCy Dependency Visualizer: https://demos.explosion.ai/displacy
+* Rule-based Matcher Explorer: https://demos.explosion.ai/matcher
+* displaCy Named Entity Visualizer: https://demos.explosion.ai/displacy-ent
 
 # API
 * https://spacy.io/api

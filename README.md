@@ -132,3 +132,6 @@ AI:
 * [example-LLM.ipynb](./example-LLM.ipynb)
 * [LLM Engineers Handbook.ipynb](./book.LLM%20Engineers%20Handbook.ipynb): book
 * [Agents.ipynb](./Agents.ipynb)
+
+# See Also
+* [Ilya Sutskever's Top 30](https://aman.ai/primers/ai/top-30-papers/)

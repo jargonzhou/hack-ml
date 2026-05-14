@@ -2,6 +2,7 @@
 
 * [Bokeh](./tools/bokeh/bokeh.md): a Python library for creating interactive visualizations for modern web browsers.
 * [CuPy](https://github.com/cupy/cupy): CuPy is a NumPy/SciPy-compatible array library for GPU-accelerated computing with Python. CuPy acts as a drop-in replacement to run existing NumPy/SciPy code on NVIDIA CUDA or AMD ROCm platforms.
+* [Faiss](https://github.com/facebookresearch/faiss): A library for efficient similarity search and clustering of dense vectors.
 * [Featuretools](https://github.com/alteryx/featuretools): a python library for automated feature engineering.
 * [Gradio](./tools/Gradio.md): Build and share delightful machine learning apps, all in Python.
 * [graphviz](https://pypi.org/project/graphviz/): Simple Python interface for Graphviz.
@@ -85,9 +86,9 @@
 * [Pi](https://github.com/badlogic/pi-mono): Tools for building AI agents and managing LLM deployments.
 
 LLM Model Serving
-* [GPT4ALL](https://www.nomic.ai/gpt4all): GPT4All runs large language models (LLMs) privately on everyday desktops & laptops.
+* [GPT4ALL](https://github.com/nomic-ai/gpt4all): GPT4All runs large language models (LLMs) privately on everyday desktops & laptops.
 * [HuggingFace TGI](https://huggingface.co/text-generation-inference)
-* [LightLLM](https://github.com/ModelTC/lightllm)
+* [LightLLM](https://github.com/ModelTC/lightllm): Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. - Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
 * [LM Studio](https://github.com/lmstudio-ai)
 * [Ollama](./tools/llm/Ollama.md)
@@ -99,6 +100,7 @@ LLM Model Serving
 ## Application
 
 * [Claude Code](https://code.claude.com/docs/en/overview)
+* [pi](./tools/llm/pi.md)
 
 # Miscellaneous
 * [Beads](https://github.com/steveyegge/beads): Beads provides a persistent, structured memory for coding agents. It replaces messy markdown plans with a dependency-aware graph, allowing agents to handle long-horizon tasks without losing context.
