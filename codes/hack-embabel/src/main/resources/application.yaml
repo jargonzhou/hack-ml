@@ -1,0 +1,41 @@
+embabel:
+  observability:
+    enabled: true
+    service-name: hack-embabel
+  agent:
+    # scan packages
+    scan-packages: com.spike.ml.embabel.agent
+    platform:
+      autonomy:
+        agent-confidence-cut-off: 0.05
+        goal-confidence-cut-off: 0.05
+      models:
+        # LM Studio
+#        lmstudio:
+#          base-url: http://127.0.0.1:1234
+        # OpenAI compatible
+        openai:
+          custom:
+            base-url: https://ollama.com
+            api-key: ${OPENAI_CUSTOM_API_KEY:your-dev-key}
+            models: gemma4:31b-cloud,gpt-oss:120b-cloud
+
+  models:
+    # LM Studio
+#    default-llm: google/gemma-4-e4b
+#    default-embedding-model: text-embedding-embeddinggemma-300m
+    # OpenAI compatible
+    default-llm: gemma4:31b-cloud
+
+management:
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
+  # Langfuse
+  langfuse:
+    enabled: true
+#    endpoint: https://cloud.langfuse.com/api/public/otel  # or self-hosted URL
+    endpoint: http://127.0.0.1:3000/api/public/otel
+    public-key: pk-lf-e8f9e65f-35d0-4cd2-8554-101e6fd4c64a
+    secret-key: sk-lf-d51c1f51-4330-4dc4-84e7-179ed7ac9fb3

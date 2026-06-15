@@ -2,6 +2,8 @@
 
 concepts, basic implementation of NLP algorithms/tasks. - skimmed 2026-04-22
 
+action: [application-store/devcontainers/spark/nlp-with-spark-nlp](https://github.com/jargonzhou/application-store/blob/main/devcontainers/spark/nlp-with-spark-nlp/ch01-getting-started.ipynb)
+
 - Part I. Basics: 1-4
 - Part II. Building Blocks: 5-11
 - Part III. Applications: 12-16

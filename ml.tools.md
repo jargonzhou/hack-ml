@@ -4,8 +4,10 @@
 * [CuPy](https://github.com/cupy/cupy): CuPy is a NumPy/SciPy-compatible array library for GPU-accelerated computing with Python. CuPy acts as a drop-in replacement to run existing NumPy/SciPy code on NVIDIA CUDA or AMD ROCm platforms.
 * [Faiss](https://github.com/facebookresearch/faiss): A library for efficient similarity search and clustering of dense vectors.
 * [Featuretools](https://github.com/alteryx/featuretools): a python library for automated feature engineering.
+* [Gensim](https://github.com/piskvorky/gensim): Gensim is a Python library for topic modelling, document indexing and similarity retrieval with large corpora. Target audience is the natural language processing (NLP) and information retrieval (IR) community.
 * [Gradio](./tools/Gradio.md): Build and share delightful machine learning apps, all in Python.
 * [graphviz](https://pypi.org/project/graphviz/): Simple Python interface for Graphviz.
+* [imageio](https://github.com/imageio/imageio): Imageio is a mature Python library that makes it easy to read and write image and video data. This includes animated images, video, volumetric data, and scientific formats. It is cross-platform, runs on Python 3.10+, and is easy to install.
 * [JAX](./tools/jax/jax.md): JAX is a Python library for accelerator-oriented array computation and program transformation, designed for high-performance numerical computing and large-scale machine learning.
 * [KaTeX](./tools/KaTeX.md)
 * [Matplotlib](./tools/matplotlib/matplotlib.md): Visualization with Python.
@@ -13,13 +15,14 @@
 * [NumPy](./tools/numpy/numpy.md): Numerical Python.
 * [pandas](./tools/pandas/pandas.md): a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 * [Polars](https://github.com/pola-rs/polars/): an analytical query engine written for DataFrames, written in Rust. Front end in Python | Rust | NodeJS | R | SQL.
+* [Pydantic Stack](./tools/pydantic/Pydantic%20Stack.md)
 * [PyTensor](https://github.com/pymc-devs/pytensor): PyTensor is a Python library that allows one to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays. It provides the computational backend for PyMC.
 * [R](./tools/R.md)
 * [scikit-learn](./tools/scikit-learn/scikit-learn.md): Machine Learning in Python.
 * [SciPy](./tools/scipy/scipy.md)
 * [seaborn](./tools/matplotlib/seaborn.md): statistical data visualization.
 * [statsmodels](./tools/statsmodels/statsmodels.md): a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
-* [Streamlit](https://github.com/streamlit/streamlit): A faster way to build and share data apps. Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps.
+* [Streamlit](./tools/streamlit/Streamlit.md): A faster way to build and share data apps. Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps.
 * [SymPy](./tools/sympy/sympy.md): a Python library for symbolic mathematics.
 * [Theano](https://github.com/Theano/Theano): Theano was a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It is being continued as *PyTensor*.
 * [XGBoost](https://github.com/dmlc/xgboost): Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow.
@@ -62,8 +65,16 @@
 
 * [CML](https://github.com/iterative/cml): Continuous Machine Learning (CML) is an open-source CLI tool for implementing continuous integration & delivery (CI/CD) with a focus on MLOps. Use it to automate development workflows — including machine provisioning, model training and evaluation, comparing ML experiments across project history, and monitoring changing datasets.
 * [MLflow](./tools/llm/MLflow/MLflow.md): The open source AI engineering platform for agents, LLMs, and ML models.
+* [AutoML](https://www.automl.org/automl/): Automated Machine Learning provides methods and processes to make Machine Learning available for non-Machine Learning experts, to improve efficiency of Machine Learning and to accelerate research on Machine Learning.
+  * AutoWEKA
+  * Auto-sklearn
+  * Auto-PyTorch
 
 # LLM Tools
+
+## Spec
+* [Agent Skills](https://github.com/agentskills/agentskills): A standardized way to give AI agents new capabilities and expertise.
+
 ## Models
 * GPT
 * Claude
@@ -71,12 +82,17 @@
 * [BLOOM](https://huggingface.co/bigscience/bloom): BigScience Large Open-science Open-access Multilingual Language Model.
 
 ## Frameworks
+* [AgentScope](https://github.com/agentscope-ai): AgentScope is a production-ready, easy-to-use agent framework with essential abstractions that works with rising model capability and built-in support for finetuning. We design for increasingly agentic LLMs. Our approach leverages the models' reasoning and tool-use abilities rather than constraining them with strict prompts and opinionated orchestrations.
 * [Dify](./tools/llm/Dify/Dify.md): Dify is an open-source LLM app development platform.
+* [Embabel Agent Framework](https://github.com/embabel/embabel-agent): Embabel (Em-BAY-bel) is a framework for authoring agentic flows on the JVM that seamlessly mix LLM-prompted interactions with code and domain models. Supports intelligent path finding towards goals. Written in Kotlin but offers a natural usage model from Java. From the creator of Spring.
 * [Hugging Face](./tools/llm/HuggingFace/Hugging%20Face.md): Hugging Face, Inc., is an American company based in New York City that develops computation tools for building applications using machine learning.
 * [Lang Chain](./tools/llm//LangChain/LangChain.md): LangChain is a software framework that helps facilitate the integration of large language models (LLMs) into applications.
 * [Langflow](./tools/llm/Langflow/Langflow.md): Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+* [Langfuse](https://github.com/langfuse/langfuse): Langfuse is an open source LLM engineering platform. It helps teams collaboratively develop, monitor, evaluate, and debug AI applications. Langfuse can be self-hosted in minutes and is battle-tested. Proudly made with ClickHouse open source database.
 * [LlamaIndex](./tools/llm/LlamaIndex/LlamaIndex.md): LlamaIndex is the leading document agent and OCR platform.
 * [Open WebUI](./tools/llm/OpenWebUI/Open%20WebUI.md): Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG, making it a powerful AI deployment solution.
+* [Ragas](https://github.com/vibrantlabsai/ragas): Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications. Say goodbye to time-consuming, subjective assessments and hello to data-driven, efficient evaluation workflows. Don't have a test dataset ready? We also do production-aligned test set generation.
+* [RAGFlow](https://github.com/infiniflow/ragflow): RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs. It offers a streamlined RAG workflow adaptable to enterprises of any scale. Powered by a converged context engine and pre-built agent templates, RAGFlow enables developers to transform complex data into high-fidelity, production-ready AI systems with exceptional efficiency and precision.
 * [Spring AI](./tools/llm/SpringAI/SpringAI.md): The Spring AI project aims to streamline the development of applications that incorporate artificial intelligence functionality without unnecessary complexity.
 * [smolagents](https://github.com/huggingface/smolagents): smolagents is a library that enables you to run powerful agents in a few lines of code.
 
@@ -112,10 +128,13 @@ LLM Model Serving
 ## OCR
 * [CnOCR](https://github.com/breezedeus/CnOCR): CnOCR: Awesome Chinese/English OCR Python toolkits based on PyTorch. It comes with 20+ well-trained models for different application scenarios and can be used directly after installation. 【基于 PyTorch/MXNet 的中文/英文 OCR Python 包。】
 * [EasyOCR](https://github.com/JaidedAI/EasyOCR): Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+* [MarkItDown](https://github.com/microsoft/markitdown): MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to textract, but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption.
 * [PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR): Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
 * [PyMuPDF](https://github.com/pymupdf/PyMuPDF): PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.
   * [PyMuPDF4LLM](https://github.com/pymupdf/pymupdf4llm): PyMuPDF4LLM is a specialized extension of PyMuPDF designed specifically for extracting content from PDFs in a format that's optimized for Large Language Models (LLMs).
+* [pypdf](https://github.com/py-pdf/pypdf): pypdf is a free and open-source pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files. It can also add custom data, viewing options, and passwords to PDF files. pypdf can retrieve text and metadata from PDFs as well.
 * [pytesseract](https://github.com/madmaze/pytesseract): A Python wrapper for Google Tesseract.
+* [python-docx2txt](https://github.com/ankushshah89/python-docx2txt): A pure python-based utility to extract text from docx files.
 
 # See Also
 - [Awesome MLOps](https://github.com/kelvins/awesome-mlops): A curated list of awesome MLOps tools.

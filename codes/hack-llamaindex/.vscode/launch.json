@@ -1,0 +1,37 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "justMyCode": false,
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "debug streamlit",
+      "type": "python",
+      "request": "launch",
+      "program": ".venv/Scripts/streamlit.exe",
+      "args": [
+        "run",
+        // "app/pits/app_pits.py"
+        // "app/app_database_tool_st.py"
+        // "app_st/c03_page_organization.py"
+        "${relativeFile}"
+      ],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

@@ -20,6 +20,8 @@ Features
 - Pre-trained Models (36000+ in +200 languages)/预训练模型
 - Multi-lingual Support/多语种支持
 
+action: [application-store/devcontainers/spark/nlp-with-spark-nlp](https://github.com/jargonzhou/application-store/blob/main/devcontainers/spark/nlp-with-spark-nlp/ch01-getting-started.ipynb)
+
 # Install
 * offline: https://sparknlp.org/docs/en/install#offline
 

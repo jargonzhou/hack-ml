@@ -1,192 +1,211 @@
 # Programming PyTorch for Deep Learning: Creating and Deploying Deep Learning Applications
 
+action: [hack-pytorch](../../codes/hack-pytorch/README.md#programming-pytorch-for-deep-learning-creating-and-deploying-deep-learning-applications)
 
 # 1. Getting Started with PyTorch
 - Building a Custom Deep Learning Machine
-- GPU
-- CPU/Motherboard
-- RAM
-- Storage
+  - GPU
+  - CPU/Motherboard
+  - RAM
+  - Storage
 - Deep Learning in the Cloud
-- Google Colaboratory
-- Cloud Providers
-- Which Cloud Provider Should I Use?
+  - Google Colaboratory
+  - Cloud Providers
+  - Which Cloud Provider Should I Use?
 - Using Jupyter Notebook
 - Installing PyTorch from Scratch
-- Download CUDA
-- Anaconda
-- Finally, PyTorch! (and Jupyter Notebook)
+  - Download CUDA
+  - Anaconda
+  - Finally, PyTorch! (and Jupyter Notebook)
 - Tensors
-- Tensor Operations
-- Tensor Broadcasting
-- Conclusion
-- Further Reading
+  - Tensor Operations
+  - Tensor Broadcasting
 
-# 2. Image Classification with PyTorch
+
+# 2. Image Classification with PyTorch/使用PyTorch的图像分类
 - Our Classification Problem
 - Traditional Challenges
-- But First, Data
-- PyTorch and Data Loaders
-- Building a Training Dataset
-- Building Validation and Test Datasets
+  - But First, Data
+  - PyTorch and Data Loaders
+  - Building a Training Dataset
+  - Building Validation and Test Datasets
 - Finally, a Neural Network!
-- Activation Functions
-- Creating a Network
-- Loss Functions
-- Optimizing
+  - Activation Functions
+  - Creating a Network
+  - Loss Functions
+  - Optimizing
 - Training
-- Making It Work on the GPU
+  - Making It Work on the GPU
 - Putting It All Together
-- Making Predictions
-- Model Saving
-- Conclusion
-- Further Reading
+  - Making Predictions
+  - Model Saving
 
-# 3. Convolutional Neural Networks
+
+# 3. Convolutional Neural Networks/CNN
 - Our First Convolutional Model
-- Convolutions
-- Pooling
-- Dropout
+  - Convolutions
+  - Pooling
+  - Dropout
 - History of CNN Architectures
-- AlexNet
-- Inception/GoogLeNet
-- VGG
-- ResNet
-- Other Architectures Are Available!
+  - AlexNet
+  - Inception/GoogLeNet
+  - VGG
+  - ResNet
+  - Other Architectures Are Available!
 - Using Pretrained Models in PyTorch
-- Examining a Model’s Structure
-- BatchNorm
-- Which Model Should You Use?
+  - Examining a Model’s Structure
+  - BatchNorm
+  - Which Model Should You Use?
 - One-Stop Shopping for Models: PyTorch Hub
-- Conclusion
-- Further Reading
 
-# 4. Transfer Learning and Other Tricks
+
+# 4. Transfer Learning and Other Tricks/迁移学习和其他技巧
 - Transfer Learning with ResNet
 - Finding That Learning Rate
 - Differential Learning Rates
 - Data Augmentation
-- Torchvision Transforms
-- Color Spaces and Lambda Transforms
-- Custom Transform Classes
-- Start Small and Get Bigger!
+  - Torchvision Transforms
+  - Color Spaces and Lambda Transforms
+  - Custom Transform Classes
+  - Start Small and Get Bigger!
 - Ensembles
-- Conclusion
-- Further Reading
 
-# 5. Text Classification
+
+# 5. Text Classification/文本分类
 - Recurrent Neural Networks
 - Long Short-Term Memory Networks
-- Gated Recurrent Units
-- biLSTM
+  - Gated Recurrent Units
+  - biLSTM
 - Embeddings
 - torchtext
-- Getting Our Data: Tweets!
-- Defining Fields
-- Building a Vocabulary
-- Creating Our Model
-- Updating the Training Loop
-- Classifying Tweets
+  - Getting Our Data: Tweets!
+  - Defining Fields
+  - Building a Vocabulary
+  - Creating Our Model
+  - Updating the Training Loop
+  - Classifying Tweets
 - Data Augmentation
-- Random Insertion
-- Random Deletion
-- Random Swap
-- Back Translation
-- Augmentation and torchtext
-- Transfer Learning?
-- Conclusion
-- Further Reading
+  - Random Insertion
+  - Random Deletion
+  - Random Swap
+  - Back Translation
+  - Augmentation and torchtext
+  - Transfer Learning?
 
-# 6. A Journey into Sound
+
+# 6. A Journey into Sound/语音
 - Sound
 - The ESC-50 Dataset
-- Obtaining the Dataset
-- Playing Audio in Jupyter
+  - Obtaining the Dataset
+  - Playing Audio in Jupyter
 - Exploring ESC-50
-- SoX and LibROSA
-- torchaudio
-- Building an ESC-50 Dataset
+  - SoX and LibROSA
+  - torchaudio
+  - Building an ESC-50 Dataset
 - A CNN Model for ESC-50
 - This Frequency Is My Universe
-- Mel Spectrograms
-- A New Dataset
-- A Wild ResNet Appears
-- Finding a Learning Rate
+  - Mel Spectrograms
+  - A New Dataset
+  - A Wild ResNet Appears
+  - Finding a Learning Rate
 - Audio Data Augmentation
-- torchaudio Transforms
-- SoX Effect Chains
-- SpecAugment
+  - torchaudio Transforms
+  - SoX Effect Chains
+  - SpecAugment
 - Further Experiments
-- Conclusion
-- Further Reading
 
-# 7. Debugging PyTorch Models
+
+# 7. Debugging PyTorch Models/调试PyTorch模型
 - It’s 3 a.m. What Is Your Data Doing?
 - TensorBoard
-- Installing TensorBoard
-- Sending Data to TensorBoard
-- PyTorch Hooks
-- Plotting Mean and Standard Deviation
-- Class Activation Mapping
+  - Installing TensorBoard
+  - Sending Data to TensorBoard
+  - PyTorch Hooks
+  - Plotting Mean and Standard Deviation
+  - Class Activation Mapping
 - Flame Graphs
-- Installing py-spy
-- Reading Flame Graphs
-- Fixing a Slow Transformation
+  - Installing py-spy
+  - Reading Flame Graphs
+  - Fixing a Slow Transformation
 - Debugging GPU Issues
-- Checking Your GPU
-- Gradient Checkpointing
-- Conclusion
-- Further Reading
+  - Checking Your GPU
+  - Gradient Checkpointing
 
-# 8. PyTorch in Production
+
+# 8. PyTorch in Production/生产环境中的PyTorch
 - Model Serving
-- Building a Flask Service
-- Setting Up the Model Parameters
-- Building the Docker Container
-- Local Versus Cloud Storage
-- Logging and Telemetry
+  - Building a Flask Service
+  - Setting Up the Model Parameters
+  - Building the Docker Container
+  - Local Versus Cloud Storage
+  - Logging and Telemetry
 - Deploying on Kubernetes
-- Setting Up on Google Kubernetes Engine
-- Creating a k8s Cluster
-- Scaling Services
-- Updates and Cleaning Up
+  - Setting Up on Google Kubernetes Engine
+  - Creating a k8s Cluster
+  - Scaling Services
+  - Updates and Cleaning Up
 - TorchScript
-- Tracing
-- Scripting
-- TorchScript Limitations
+  - Tracing
+  - Scripting
+  - TorchScript Limitations
 - Working with libTorch
-- Obtaining libTorch and Hello World
-- Importing a TorchScript Model
-- Conclusion
-- Further Reading
+  - Obtaining libTorch and Hello World
+  - Importing a TorchScript Model
 
-# 9. PyTorch in the Wild
-- Data Augmentation: Mixed and Smoothed
-- mixup
-- Label Smoothing
-- Computer, Enhance!
-- Introduction to Super-Resolution
-- An Introduction to GANs
-- The Forger and the Critic
-- Training a GAN
-- The Dangers of Mode Collapse
-- ESRGAN
-- Further Adventures in Image Detection
-- Object Detection
-- Faster R-CNN and Mask R-CNN
-- Adversarial Samples
-- Black-Box Attacks
-- Defending Against Adversarial Attacks
+
+# 9. PyTorch in the Wild/PyTorch的实际应用
+- Data Augmentation: Mixed and Smoothed/数据增强：混合与平滑
+  - mixup
+  - Label Smoothing
+- Computer, Enhance!/计算机增强
+  - Introduction to Super-Resolution
+  - An Introduction to GANs
+  - The Forger and the Critic
+  - Training a GAN
+  - The Dangers of Mode Collapse
+  - ESRGAN
+- Further Adventures in Image Detection/图像检测
+  - Object Detection
+  - Faster R-CNN and Mask R-CNN
+- Adversarial Samples/对抗样本
+  - Black-Box Attacks
+  - Defending Against Adversarial Attacks
 - More Than Meets the Eye: The Transformer Architecture
-- Paying Attention
-- Attention Is All You Need
-- BERT
-- FastBERT
-- GPT-2
-- Generating Text with GPT-2
-- ULMFiT
-- What to Use?
-- Conclusion
-- Further Reading
+  - Paying Attention
+  - Attention Is All You Need
+  - BERT
+  - FastBERT
+  - GPT-2
+  - Generating Text with GPT-2
+  - ULMFiT
+  - What to Use?
 
 # See Also
+
+datasets
+- ImageNet - https://www.kaggle.com/datasets/zuraiz/fish-vs-cats-imagenet-subdataset
+- Sentiment140 dataset with 1.6 million tweets - https://www.kaggle.com/datasets/kazanova/sentiment140
+- ESC-50: Dataset for Environmental Sound Classification - https://github.com/karolpiczak/ESC-50
+
+tools
+- CUDA: nvidia-smi
+- pytorch, torchvision, torchtext, torchaudio
+  - Sox, LibROSA
+- googletrans - https://github.com/ssut/py-googletrans
+- TensorBoard
+  - Visdom
+- py-spy
+- production setup
+  - flask
+  - waitress - https://docs.pylonsproject.org/projects/waitress/en/stable/
+  - Docker, Kubernetes
+  - logging
+  - `torch.jit.trace()`
+  - TorchScript: `@torch.jit.script`
+  - libTorch
+- wild
+  - https://github.com/xinntao/ESRGAN
+  - fast-bert
+  - pytorch-transformers
+  - gpt-2-simple
+  - fastai

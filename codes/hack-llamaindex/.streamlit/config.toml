@@ -1,0 +1,4 @@
+# https://docs.streamlit.io/develop/api-reference/configuration/config.toml
+
+[server]
+port = 18501

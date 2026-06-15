@@ -10,6 +10,7 @@ $ uv add transformers[serving] # serving models
 $ uv add datasets
 
 $ uv add torch # torchvision torchaudio
+$ uv add torchvision
 $ uv add timm
 # more: GPUtil
 
@@ -28,9 +29,13 @@ $ uv add --dev langgraph-cli
 $ uv add ollama
 
 # LlamaIndex
-$ uv add llama_index
-$ uv add llama-index-embeddings-huggingface
-$ uv add llama-index-llms-huggingface # "transformers[torch]>=4.37.0,<5", https://github.com/run-llama/llama_index/blob/main/llama-index-integrations/llms/llama-index-llms-huggingface/pyproject.toml
+# $ uv add llama_index
+# $ uv add llama-index-embeddings-huggingface
+# $ uv add llama-index-llms-huggingface # "transformers[torch]>=4.37.0,<5", https://github.com/run-llama/llama_index/blob/main/llama-index-integrations/llms/llama-index-llms-huggingface/pyproject.toml
+#   × No solution found when resolving dependencies for split (markers: python_full_version >= '3.14' and sys_platform == 'win32'):
+#   ╰─▶ Because all versions of llama-index-llms-huggingface depend on transformers[torch]>=4.37.0,<5.0.0 and your project depends on llama-index-llms-huggingface, we can conclude that your project depends on
+#       transformers[torch]>=4.37.0,<5.0.0.
+#       And because your project depends on transformers[torch]>=5.8.0, we can conclude that your project's requirements are unsatisfiable.
 
 # Agents
 $ uv add smolagents
@@ -75,6 +80,13 @@ $ uv run main.py
 # MCP inspector
 $ uv run mcp dev main.py
 ```
+
+optimize, visualization
+```shell
+$ uv add accelerate
+$ uv add torchinfo
+```
+
 
 # Learning LangChain
 Setup
@@ -158,3 +170,7 @@ For production use, please use LangSmith Deployment.
 
 - 10. Testing: Evaluation, Monitoring, and Continuous Improvement
 - 11. Building with LLMs
+
+
+# Building Data-Driven Applications with LlamaIndex
+

@@ -1,0 +1,340 @@
+<mxfile host="65bd71144e">
+    <diagram id="woH5rdpplihuluAf8Kgw" name="Page-1">
+        <mxGraphModel dx="1733" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;span&gt;Document&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="177.5" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;span&gt;Node&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;span&gt;Index&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;span&gt;QueryEngine&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="555.75" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;span&gt;Reader&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="10" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;IngestionPipeline&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="352.5" y="90" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;NodeRelationship&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="492.5" y="280" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;Settings&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="-220" y="30" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;NodeParser&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="707" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;MetadataExtractor&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="850" y="140" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;Metadata&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;NodePostprocessor&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="555.75" y="880" width="136" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(38, 127, 153);&quot;&gt;StorageContext&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry y="580" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;&lt;font style=&quot;&quot;&gt;BaseDocumentStore&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="640" width="135" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;BaseIndexStore&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;BasePydanticVectorStore&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="185" y="580" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;GraphStore&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;PropertyGraphStore&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="308.75" y="700" width="152.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Retriever&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="555.75" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(38, 127, 153);&quot;&gt;Selector&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="870" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;RetrieverTool&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry y="1010" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 20px;&quot;&gt;&lt;span style=&quot;color: #800000;&quot;&gt;QueryTransform&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="870" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;Synthesizer&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="547.75" y="1080" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 20px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 20px;&quot;&gt;&lt;span style=&quot;color: #267f99;&quot;&gt;OutputParser&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="1080" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 20px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(38, 127, 153);&quot;&gt;PydanticProgram&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="198.75" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;FunctionAgent&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;AgentWorflow&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="390" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;ReActAgent&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1210" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;CodeActAgent&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Building an LLM application" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="40" width="500" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Using LLMs" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="52">
+                    <mxGeometry y="20" width="500" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Building agents" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="53">
+                    <mxGeometry y="80" width="500" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="- building a single agent&lt;div&gt;- using existing tools&lt;/div&gt;&lt;div&gt;- maintaining state&lt;/div&gt;&lt;div&gt;- streaming output and events&lt;/div&gt;&lt;div&gt;- human in the loop&lt;/div&gt;&lt;div&gt;- multi-agent systems with AgentWorkfow&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;horizontal=1;" vertex="1" parent="54">
+                    <mxGeometry x="40" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Workflows" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="280" width="500" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="- building a simple workflow&lt;div&gt;- looping and branching&lt;/div&gt;&lt;div&gt;- concurrent execution&lt;/div&gt;&lt;div&gt;- streaming events&lt;/div&gt;&lt;div&gt;- stateful workflows&lt;/div&gt;&lt;div&gt;- observability&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="55">
+                    <mxGeometry x="40" y="10" width="170" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Evaluating" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="750" width="500" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;BaseToolSpec&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1210" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;Context&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="340" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;JsonPickleSerializer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1350" y="320" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;JsonSerializer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1350" y="380" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;AgentStream&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;AgentInput&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;AgentOutput&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;ToolCall&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;ToolCallResult&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;InputRequiredEvent&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="640" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;HumanResponseEvent&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="640" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Adding RAG to Agents" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-760" y="440" width="500" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Tracing and Debugging" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="56">
+                    <mxGeometry y="160" width="500" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="- loading and ingestion&lt;div&gt;- indexing and embedding&lt;/div&gt;&lt;div&gt;- storing&lt;/div&gt;&lt;div&gt;- querying&lt;/div&gt;&lt;div&gt;&amp;nbsp; - retriever&lt;/div&gt;&lt;div&gt;&amp;nbsp; - node postprocessor&lt;/div&gt;&lt;div&gt;&amp;nbsp; - response synthesis&lt;/div&gt;&lt;div&gt;&amp;nbsp; - structured output&lt;/div&gt;&lt;div&gt;&amp;nbsp; - query workflow&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="56">
+                    <mxGeometry x="40" y="13" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;state&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;agents&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;align=left;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;tools&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;llm&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;align=left;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;workflow&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;AgentStreamStructuredOutput&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1440" y="510" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;RouterRetriever&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-1" y="920" width="136" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="4" target="2">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="100" y="400" as="sourcePoint"/>
+                        <mxPoint x="260" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="80" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="from_ducuments" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="85">
+                    <mxGeometry x="-0.1761" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="80" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="as_query_engine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="87">
+                    <mxGeometry x="-0.0253" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;VectorStoreIndex&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="440" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 15px; text-align: left;&quot;&gt;SummaryIndex&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="341" y="440" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 15px; text-align: left;&quot;&gt;KnowledgeGraphIndex&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="486" y="440" width="164" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;SimpleDirectoryReader&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="167.5" y="10" width="182.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;DatabaseReader&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="10" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;llm&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;pydantic_program_mode&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;embed_model&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;global_handler&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;callback_manager&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;tokenizer&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;node_parser&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;chunk_size&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;chunk_overlap&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;text_splitter&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;prompt_helper&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;chat_prompt_helper&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;num_output&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;chat_num_output&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;context_window&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;chat_context_window&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;transformations&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="-220" y="60" width="210" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;SentenceSplitter&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="683.75" y="420" width="136.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="110" y="450" as="sourcePoint"/>
+                        <mxPoint x="248" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="2" target="26">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="120" y="460" as="sourcePoint"/>
+                        <mxPoint x="258" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;TokenTextSplitter&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="420" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;transformations&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;docstore&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;persist()&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="352.5" y="110" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;TitleExtractor&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="240" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="80" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="278" y="450" as="sourcePoint"/>
+                        <mxPoint x="248" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="from_vector_store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="97">
+                    <mxGeometry x="-0.1761" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;IngestionCache&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="110" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;RedisCache&lt;br/&gt;MongoDBCache&lt;br/&gt;FirestoreCache&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="110" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;Transformation&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="725" y="30" width="155" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;TextSplitter&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="310" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="103" target="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="730" y="350" as="sourcePoint"/>
+                        <mxPoint x="890" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="625" y="200" as="sourcePoint"/>
+                        <mxPoint x="800" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="24">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="777" y="210" as="sourcePoint"/>
+                        <mxPoint x="800" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="96" target="24">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="777" y="210" as="sourcePoint"/>
+                        <mxPoint x="810" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="90" target="103">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="785" y="310" as="sourcePoint"/>
+                        <mxPoint x="777" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="94" target="103">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="762" y="430" as="sourcePoint"/>
+                        <mxPoint x="785" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="95" target="102">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="308" y="350" as="sourcePoint"/>
+                        <mxPoint x="340" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="111" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;SOURCE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;PREVIOUS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;NEXT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;PARENT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;CHILD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="492.5" y="300" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 20px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); line-height: 20px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59);&quot;&gt;docstore&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59);&quot;&gt;index_store&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59);&quot;&gt;vector_stores&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59);&quot;&gt;graph_store&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59);&quot;&gt;property_graph_store&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+                    <mxGeometry y="600" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(59, 59, 59); font-family: &amp;quot;Segoe WPC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; text-align: left; white-space: normal;&quot;&gt;BaseEmbedding&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="587" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="113" target="102">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="777" y="210" as="sourcePoint"/>
+                        <mxPoint x="810" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="115" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span style=&quot;&quot;&gt;VectorIndexRetriever&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="675.75" y="800" width="182.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;RetrieverQueryEngine&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="675.88" y="720" width="182.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;SimilarityPostprocessor&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="691.75" y="880" width="198.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;KeywordNodePostprocessor&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="691.75" y="940" width="198.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font face=&quot;Inconsolata, Consolas, Courier New, monospace, Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre;&quot;&gt;PrevNextNodePostprocessor&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="691.75" y="1000" width="198.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;ResponseMode&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="940" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="&lt;div style=&quot;font-family: Inconsolata, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 20px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;refine&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;compact&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;simple_summarize&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;tree_summarize&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;generation&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;no_text&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;context_only&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;accumulate&lt;/div&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;compact_accumulate&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="960" width="160" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

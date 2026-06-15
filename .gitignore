@@ -206,14 +206,26 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+################################################################################
+# Datas
+################################################################################
+data/
 
 ################################################################################
 # Codes
 ################################################################################
+# PyTorch
+codes/hack-pytorch/data/
+codes/hack-pytorch/model/
+# LLM
 codes/hack-llm/data
-
+# LlamaIndex
+codes/hack-llamaindex/data
+codes/hack-llamaindex/.pits
+codes/hack-llamaindex/app/app_database_tool.py
+# Graph
 codes/graph-algorithms/datas
-
+# SpaCy
 codes/nlp/hack-spacy/data
 codes/nlp/hack-spacy/kb
 codes/nlp/hack-spacy/output

@@ -20,7 +20,7 @@ Features
 - **Text Classification/文本分类**: Assigning categories or labels to a whole document, or parts of a document.
 - **Rule-based Matching/基于规则匹配**: Finding sequences of tokens based on their texts and linguistic annotations, similar to regular expressions.
 - **Training/训练**: Updating and improving a statistical model’s predictions.
-- **Serialization/序列化**: Saving objects to files or byte strings.                                                                     |
+- **Serialization/序列化**: Saving objects to files or byte strings.
 
 Books 
 - Applied Natural Language Processing in the Enterprise: Teaching Machines to Read, Write, and Understand. O'Reilly, 2021

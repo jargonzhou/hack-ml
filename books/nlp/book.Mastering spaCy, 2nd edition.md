@@ -1,5 +1,7 @@
 # Mastering spaCy: Build structured NLP solutions with custom components and models powered by spacy-llm
 
+action: [nlp/hack-spacy](../../codes/nlp/hack-spacy/README.md)
+
 - Part 1: Getting Started with spaCy: 1-2
 - Part 2: Advanced Linguistic and Semantic Analysis: 3-6
 - Part 3: Customizing and Integrating NLP Workflows: 7-11
