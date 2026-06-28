@@ -1,12 +1,24 @@
 # Essential GraphRAG: Knowledge Graph-Enhanced RAG
 
+```
+ ┌───────────┬───────────────────────────────────┬──────────────────────────────────────┬─────────────────────────────────┐
+ │ Feature   │ Vector RAG                        │ Graph RAG (Text2Cypher/Agentic)      │ Microsoft GraphRAG              │
+ ├───────────┼───────────────────────────────────┼──────────────────────────────────────┼─────────────────────────────────┤
+ │ Retrieval │ Semantic similarity (top-k)       │ Exact structural traversal           │ Community-based summaries       │
+ ├───────────┼───────────────────────────────────┼──────────────────────────────────────┼─────────────────────────────────┤
+ │ Strength  │ Unstructured "vibes"/similar text │ Precise facts, complex relationships │ Global thematic analysis        │
+ ├───────────┼───────────────────────────────────┼──────────────────────────────────────┼─────────────────────────────────┤
+ │ Weakness  │ Lacks structural context          │ Requires a clean schema              │ High indexing cost (LLM tokens) │
+ └───────────┴───────────────────────────────────┴──────────────────────────────────────┴─────────────────────────────────┘
+```
+
 # 1 Improving LLM accuracy/提升LLM准确率
 - 1.1 Introduction to LLMs
 - 1.2 Limitations of LLMs
-  - 1.2.1 Knowledge cutoff problem
-  - 1.2.2 Outdated information
-  - 1.2.3 Pure hallucinations
-  - 1.2.4 Lack of private information
+  - 1.2.1 Knowledge cutoff problem/知识截止问题
+  - 1.2.2 Outdated information/信息过时
+  - 1.2.3 Pure hallucinations/纯粹幻觉
+  - 1.2.4 Lack of private information/缺乏私人信息
 - 1.3 Overcoming the limitations of LLMs
   - 1.3.1 Supervised finetuning
   - 1.3.2 Retrieval-augmented generation
@@ -16,19 +28,19 @@
 - 2.1 Components of a RAG architecture
   - 2.1.1 The retriever/检索器
   - 2.1.2 The generator/生成器
-- 2.2 RAG using vector similarity search
-  - 2.2.1 Application data setup
-  - 2.2.2 The text corpus
+- 2.2 RAG using vector similarity search/使用向量相似度搜索的RAG
+  - 2.2.1 Application data setup/数据
+  - 2.2.2 The text corpus/文本语料库
     - “Einstein’s Patents and Inventions” (Caudhuri, 2017): https://arxiv.org/abs/1709.00666
-  - 2.2.3 Text chunking
-  - 2.2.4 Embedding model
+  - 2.2.3 Text chunking/文本分片
+  - 2.2.4 Embedding model/嵌入模型
+    - `all-MiniLM-L12-v2` via Sentence Transformers from Hugging Face
     - OpenAI’s embedding models: `text-embedding-3-small`
-    - `all-MiniLM-L12-v2` via Sentence Transformers from Hugging Face 
-  - 2.2.5 Database with vector similarity search function
+  - 2.2.5 Database with vector similarity search function/具有向量相似度搜索功能的数据库
     - Neo4j
-  - 2.2.6 Performing vector search
-  - 2.2.7 Generating an answer using an LLM
-- 2.3 Adding full-text search to the RAG application to enable hybrid search
+  - 2.2.6 Performing vector search/执行向量搜索
+  - 2.2.7 Generating an answer using an LLM/使用LLM生成答案
+- 2.3 Adding full-text search/全文搜索 to the RAG application to enable hybrid search/混合搜索
   - 2.3.1 Full-text search index
   - 2.3.2 Performing hybrid search
 - 2.4 Concluding thoughts
@@ -41,13 +53,13 @@
 - 3.3 Complete RAG pipeline
 
 # 4 Generating Cypher queries from natural language questions/从自然语言问题生成Cypher查询
-- 4.1 The basics of query language generation
+- 4.1 The basics of query language generation/查询语言生成基础
 - 4.2 Where query language generation fits in the RAG pipeline
 - 4.3 Useful practices for query language generation
-  - 4.3.1 Using few-shot examples for in-context learning
-  - 4.3.2 Using database schema in the prompt to show the LLM the structure of the knowledge graph
-  - 4.3.3 Adding terminology mapping to semantically map the user question to the schema
-  - 4.3.4 Format instructions
+  - 4.3.1 Using few-shot examples for in-context learning/上下文中学习的少次样本
+  - 4.3.2 Using database schema in the prompt to show the LLM the structure of the knowledge graph/在提示词中使用数据库Schema提供给LLM知识图谱的结构信息
+  - 4.3.3 Adding terminology mapping to semantically map the user question to the schema/添加术语映射: 语义的映射用户问题到Schema
+  - 4.3.4 Format instructions/格式化指令
 - 4.4 Implementing a text2cypher generator using a base model
   - Neo4j Python diver, OpenAPI API
 - 4.5 Specialized (finetuned) LLMs for text2cypher
@@ -60,7 +72,7 @@
 - 5.1 What is agentic RAG?
   - 5.1.1 Retriever agents/检索器智能体
   - 5.1.2 The retriever router/检索器路由
-  - 5.1.3 Answer critic/答案评论家
+  - 5.1.3 Answer critic/答案评论
 - 5.2 Why do we need agentic RAG?
 - 5.3 How to implement agentic RAG
   - 5.3.1 Implementing retriever tools
@@ -77,9 +89,10 @@
 
 # 6 Constructing knowledge graphs with LLMs/使用LLM构建知识图谱
 - 6.1 Extracting structured data from text
+  - running example: process legal documents and contracts, extract structured information
   - 6.1.1 Structured Outputs model definition
     - OpenAI Structured Output feature in API: https://developers.openai.com/api/docs/guides/structured-outputs
-    - Pydantic
+    - Pydantic: `Contract`, `Organization`, `Location`
   - 6.1.2 Structured Outputs extraction request
   - 6.1.3 CUAD dataset
     - https://github.com/tomasonjo/kg-rag/blob/main/data/license_agreement.txt
@@ -88,8 +101,9 @@
   - 6.2.2 Entity resolution
   - 6.2.3 Adding unstructured data to the graph
 
+Figure 6.2 Building knowledge graphs from text by using LLMs to extract structured data information
+
 # 7 Microsoft’s GraphRAG implementation/微软的GraphRAG实现
-- https://github.com/microsoft/graphrag
 - 7.1 Dataset selection
   - The Odyssey: https://www.gutenberg.org/cache/epub/1727/pg1727.txt
 - 7.2 Graph indexing/图索引
@@ -110,22 +124,36 @@
     - `local_search`
 
 Figure 7.1 Microsoft’s GraphRAG pipeline. (Image from Edge et al., 2024, licensed under CC BY 4.0)
+- Indexing Time
+  - Source Documents
+  - Text Chunks
+  - Entities & Relationships
+  - Knowledge Graph
+- Query Time
+  - Graph Communities
+  - Community Summaries
+  - Community Answers
+  - Global Answer
 
 # 8 RAG application evaluation/RAG应用评估
-- Ragas, the Movies dataset
+- **Ragas**, the Movies dataset
 - 8.1 Designing the benchmark dataset/设计基准数据集
   - 8.1.1 Coming up with test examples
+    - Question, Ground truth/Cypher
 - 8.2 Evaluation/评估
-  - 8.2.1 Context recall/上下文召回
-    - `Context recall evaluation`
-  - 8.2.2 Faithfulness/忠实度
-    - `Faithfulness statement breakdown`
-    - `Faithfulness evaluation`
-  - 8.2.3 Answer correctness/答案正确性
-    - `Answer correctness evaluation`
+  - 8.2.1 Context recall/上下文召回: measures how many relevant pieces of information were successfully retrieved using the prompt in `Context recall evaluation`
+    - prompt `Context recall evaluation`
+  - 8.2.2 Faithfulness/忠实度: evaluates whether the generated response remains factually consistent with the retrieved context
+    - prompt `Faithfulness statement breakdown`: decompose the answer into atomic statements
+    - prompt `Faithfulness evaluation`
+  - 8.2.3 Answer correctness/答案正确性: assesses how accurately and completely the response addresses the user’s query
+    - prompt `Answer correctness evaluation`
   - 8.2.4 Loading the dataset/加载数据集
     - https://github.com/tomasonjo/kg-rag/blob/main/data/benchmark_data.csv
   - 8.2.5 Running evaluation/运行评估
+    - obtain the ground truth by executing the corresponding Cypher statements
+    - generate answers using the agent
+    - record latency and retrieved contexts to analyze system's efficiency and relevance
   - 8.2.6 Observations/观察
 - 8.3 Next steps
 
@@ -138,7 +166,7 @@ Figure 8.1 Evaluating different steps of a RAG pipeline
 - v 3. retrieve relevant context    <- evaluate relevancy of retrieved contxt
 - Retrieved context
 - v 4. generate answer              <- evaluate answer generation
-- LLM
+- LLM                               <- evaluate end-to-end solution
 
 # A. The Neo4j environment
 - A.1 Cypher query language
@@ -153,3 +181,5 @@ Figure 8.1 Evaluating different steps of a RAG pipeline
   - A.4.3 Loading via Cypher
 
 # See Also
+* [microsoft/graphrag](https://github.com/microsoft/graphrag): A modular graph-based Retrieval-Augmented Generation (RAG) system
+* [Ragas](https://github.com/vibrantlabsai/ragas): Objective metrics, intelligent test generation, and data-driven insights for LLM apps.

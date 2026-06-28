@@ -556,6 +556,62 @@ Components
 - **[Workflows Client](https://developers.llamaindex.ai/python/llamaagents/workflows/deployment/#using-workflowclient-to-interact-with-servers)**: Call deployed workflows via REST API or typed Python client.
 
 ## Agent Workflows
+* https://developers.llamaindex.ai/python/llamaagents/workflows/
+
+A workflow is an event-driven, step-based way to control the execution flow of an application//工作流是一种事件驱动的, 基于步骤的控制应用执行流的方法.
+
+Your application is divided into sections called steps. A step receives an event, does some work, and returns another event. That returned event triggers the next step whose type annotation accepts it.
+
+That is the whole model. A step can call an LLM, run retrieval, ask for human input, update shared state, or dispatch a batch of work. The event types describe the edges of the workflow, and regular Python describes the logic inside each edge.
+
+Other frameworks and LlamaIndex itself have attempted to solve this problem previously with directed acyclic graphs (DAGs)/有向无环图 but these have a number of limitations that workflows do not:
+- Logic like loops and branches/循环和分支逻辑 needed to be encoded into the edges of graphs, which made them hard to read and understand.
+- Passing data between nodes/在节点间传递数据 in a DAG created complexity around optional and default values and which parameters should be passed.
+- DAGs did not feel natural to developers trying to develop complex, looping, branching AI applications.
+
+
+`llama-index-workflows`
+- Introduction
+  - `Workflow`, `@step`, `StartEvent`, `StopEvent`
+  - examples
+- Branches and loops
+- Concurrent execution of workflows
+- Writing async workflows
+- Streaming events
+- Managing State
+  - Each workflow run has a `Context`, and each context has a state store.
+- Custom start and stop events
+- Resource Objects
+  - `from workflows.resource import Resource`
+  - Config-backed Resources: `from workflows.resource import ResourceConfig`
+  - Chaining Resources
+- Workflows from unbound functions
+- Error handling
+  - `from workflows.retry_policy import ...`
+- Human in the Loop
+  - `InputRequiredEvent`, `HumanResponseEvent`
+  - `ctx.wait_for_event()`
+- Writing durable workflows
+- DBOS Durable Execution
+  - `llama-agents-dbos`
+  - DBOS provides high-performance, easy-to-use durable workflows built on top of Postgres. - https://docs.dbos.dev/why-dbos
+- Drawing a Workflow
+  - `llama-index-utils-workflow`
+  - Use the debugger UI
+- Testing Workflows
+  - `from workflows.testing import WorkflowTestRunner`
+- Observability
+  - OpenTelemetry: `llama-index-observability-otel`
+  - Arize Phoenix
+  - Langfuse
+  - Opik
+- Run Your Workflow as a Server
+  - `llama-agents-server`
+  - `WorkflowServer`
+  - Workflow Debugger UI
+- Python Client
+  - `llama-agents-client`
+  - `WorkflowClient`
 
 ## llamactl
 

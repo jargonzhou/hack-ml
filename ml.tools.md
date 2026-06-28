@@ -91,7 +91,7 @@
 * [Langfuse](https://github.com/langfuse/langfuse): Langfuse is an open source LLM engineering platform. It helps teams collaboratively develop, monitor, evaluate, and debug AI applications. Langfuse can be self-hosted in minutes and is battle-tested. Proudly made with ClickHouse open source database.
 * [LlamaIndex](./tools/llm/LlamaIndex/LlamaIndex.md): LlamaIndex is the leading document agent and OCR platform.
 * [Open WebUI](./tools/llm/OpenWebUI/Open%20WebUI.md): Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG, making it a powerful AI deployment solution.
-* [Ragas](https://github.com/vibrantlabsai/ragas): Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications. Say goodbye to time-consuming, subjective assessments and hello to data-driven, efficient evaluation workflows. Don't have a test dataset ready? We also do production-aligned test set generation.
+* [Ragas](./tools/llm/Ragas/Ragas.md): Objective metrics, intelligent test generation, and data-driven insights for LLM apps.
 * [RAGFlow](https://github.com/infiniflow/ragflow): RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs. It offers a streamlined RAG workflow adaptable to enterprises of any scale. Powered by a converged context engine and pre-built agent templates, RAGFlow enables developers to transform complex data into high-fidelity, production-ready AI systems with exceptional efficiency and precision.
 * [Spring AI](./tools/llm/SpringAI/SpringAI.md): The Spring AI project aims to streamline the development of applications that incorporate artificial intelligence functionality without unnecessary complexity.
 * [smolagents](https://github.com/huggingface/smolagents): smolagents is a library that enables you to run powerful agents in a few lines of code.
@@ -117,6 +117,7 @@ LLM Model Serving
 
 * [Claude Code](https://code.claude.com/docs/en/overview)
 * [pi](./tools/llm/pi.md)
+* [DeepTutor](https://github.com/HKUDS/DeepTutor): Agent-Native Personalized Tutoring. DeepTutor is an agent-native learning workspace that connects tutoring, problem solving, quiz generation, research, visualization, and mastery practice in one extensible system.
 
 # Miscellaneous
 * [Beads](https://github.com/steveyegge/beads): Beads provides a persistent, structured memory for coding agents. It replaces messy markdown plans with a dependency-aware graph, allowing agents to handle long-horizon tasks without losing context.

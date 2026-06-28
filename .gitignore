@@ -232,3 +232,5 @@ codes/nlp/hack-spacy/output
 codes/nlp/hack-spacy/language
 codes/nlp/hack-spacy/pipelines
 codes/nlp/hack-spacy/en_ner_fashion_brands-0.0.0
+# Embabel
+codes/hack-embabel/.idea

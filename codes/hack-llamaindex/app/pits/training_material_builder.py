@@ -17,6 +17,7 @@ import streamlit as st
 from collections import Counter
 from typing import List
 
+import nest_asyncio
 
 from app.pits.global_settings import STORAGE_PATH, INDEX_STORAGE, CACHE_FILE, SLIDES_FILE
 from app.pits.logging_functions import log_action
@@ -38,6 +39,8 @@ class DataFrameOutput(BaseModel):
 
 
 def generate_slides(topic):
+  nest_asyncio.apply()
+
   # llm = OpenAI(temperature=0.5, model="gpt-4-1106-preview", max_tokens=4096)
 
   with st.spinner("Loading documents..."):

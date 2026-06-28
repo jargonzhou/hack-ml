@@ -1268,3 +1268,7 @@ Quantization refers to techniques for performing computations and storing tensor
 - [list PyTorch modules](./ai_generated/gen-pytorch-modules.md)
 - [pytorch version history](./ai_generated/gen-pytorch-versions.md)
 
+## PyG
+* https://github.com/pyg-team/pytorch_geometric
+
+PyG (PyTorch Geometric) is a library built upon PyTorch to easily write and train Graph Neural Networks (GNNs) for a wide range of applications related to structured data.
