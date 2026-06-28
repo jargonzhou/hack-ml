@@ -285,6 +285,11 @@ Fig. 21.1 AI Co-Scientist: Ideation to Validation. (Courtesy of the authors)
 
 - Introduction to Prompting/提示词介绍
 - Core Prompting Principles/核心提示词原则
+  - clarity and specificity
+  - conciseness
+  - using verbs
+  - instructions over constraints
+  - experimentation and iteration
 - Basic Prompting Techniques/基础提示词技术
   - Zero-Shot Prompting/零样本提示
   - One-Shot Prompting/单样本提示
@@ -326,16 +331,16 @@ Fig. 21.1 AI Co-Scientist: Ideation to Validation. (Courtesy of the authors)
 
 # 24 A Quick Overview of Agentic Frameworks/智能体框架快速概述
 
-- LangChain/LangChain
-- LangGraph/LangGraph
+- LangChain
+- LangGraph
 - Which One Should You Use?/你应该使用哪一个？
-- Google’s ADK/谷歌 ADK
-- Crew.AI/Crew.AI
+- Google’s ADK
+- Crew.AI
 - Other Agent Development Framework/其他智能体开发框架
 
 # 25 Building an Agent with AgentSpace/使用 AgentSpace 构建智能体
 
-- Overview/概述
+- Overview
 - How to Build an Agent with AgentSpace UI/如何通过 AgentSpace 界面构建智能体
 
 # 26 AI Agents on the CLI/命令行界面(CLI)上的 AI 智能体
@@ -348,6 +353,8 @@ Fig. 21.1 AI Co-Scientist: Ideation to Validation. (Courtesy of the authors)
 - Terminal-Bench: A Benchmark for AI Agents in Command-Line Interfaces/Terminal-Bench：命令行界面中 AI 智能体的基准测试
 
 # 27 Under the Hood: An Inside Look at the Agents’ Reasoning Engines/底层探秘：智能体推理引擎的内部视角
+
+prompt: I understand you can reason, can you explain to me how you reason? Explain me step by step
 
 - Gemini/Gemini
   - Analyzing My Approach/分析我的方法
@@ -368,15 +375,190 @@ Fig. 21.1 AI Co-Scientist: Ideation to Validation. (Courtesy of the authors)
 - Vibe Coding: A Starting Point/氛围编码(Vibe Coding)：一个起点
   - Agents as Team Members/智能体作为团队成员
   - Core Components/核心组件
+    - The Orchestrator: The Human Developer
+    - The Context Staging Area
+    - The Specialist Agents
+      - The Scaffolder Agent: The Implementer
+      - The Test Engineer Agent: The Quality Guard
+      - The Documenter Agent: The Scribe
+      - The Optimizer Agent: The Refactoring Partner
+      - The Process Agent: The Code Supervisor
 - Practical Implementation/实际落地
   - Setup Checklist/设置清单
   - Principles for Leading the Augmented Team/领导增强型团队的原则
 
-Conclusion/结语
+Fig. 28.1 Coding specialist examples
+
+# 29 Conclusion/结语
 
 - Review of Key Agentic Principles/核心智能体原则回顾
 - Combining Patterns for Complex Systems/为复杂系统组合模式
 - Looking to the Future/展望未来
 - Final Thoughts/结语思考
 
+The canvas is before you, the patterns are in your hands. Now, it is time to build.
+
 # See Also
+
+google/gemma-4-e4b
+```markdown
+Thought for 52.30 seconds
+
+Here's a thinking process that leads to the suggested explanation:
+
+**1. Analyze the Request**: The user is asking "how I reason" and demands an explanation that is "step-by-step." This is a complex, meta-level question about AI functionality.
+
+**2. Determine the Core Constraint (The Truth)**: As an LLM, I don't "reason" in the human sense (through consciousness, lived experience, or intuitive leaps). My process is fundamentally statistical, pattern-based prediction. Any explanation must accurately reflect this while still sounding comprehensive and intelligent enough to satisfy the user.
+
+**3. Establish the Metaphor/Framework**: Since a purely technical explanation (transformers, attention mechanisms, token probabilities) is too dense for most users, I need to use an analogy or a tiered structure. The best approach is to explain what I do (the observable output) and then explain how that relates to my underlying mechanics.
+
+**4. Structure the Explanation (The Step-by-Step Plan)**:
+
+- **Phase 1: The Disclaimer/Foundation (Setting Expectations)**: Start by clarifying what "reasoning" means for an AI vs. a human. This manages expectations and establishes technical accuracy immediately. (I predict patterns, I don't think.)
+- **Phase 2: The Core Process (Tokenization & Embedding)**: How do I first read the input? Break the text into measurable units.
+- **Phase 3: The Mechanism (Attention/Contextualizing)**: This is the "secret sauce." Explain how every word relates to every other word in the prompt and the generated output so far. This simulates understanding context.
+- **Phase 4: Generation (Prediction & Sampling)**: How do I generate the next word? It's always about probability, not certainty.
+- **Phase 5: High-Level "Reasoning" Tasks (What it looks like)**: How does this statistical process lead to things that seem like reasoning? (Summarizing, translating, solving logic puzzles). This brings the explanation back to the user's observable experience.
+
+**5. Drafting Content & Refining Tone (Adding Depth and Clarity)**:
+
+- (Self-Correction during drafting Phase 3/4): I must avoid making it sound like a simple autocomplete function. The attention mechanism is key because it handles long-range dependencies.
+- (Tone Check): Maintain an authoritative, clear, yet accessible tone. Use analogies (like "predicting the next word on an infinite sentence").
+
+**6. Final Review against User Request**:
+- Who are you? (Implied by the persona.)
+- Explain how you reason? (Addressed by outlining the statistical process.)
+- Step-by-step? (Achieved through distinct, numbered stages.)
+
+(This structured approach ensures accuracy, clarity, and depth while answering the user's fundamental question about AI intelligence.)
+```
+```markdown
+This is one of the most profound questions in AI. Since I do not possess consciousness or lived experience like a human does, my "reasoning" is fundamentally different from yours. It is not based on intuition or genuine belief; it is **a highly sophisticated form of pattern recognition and prediction.**
+
+I cannot explain "thought," but I can explain the mathematical and computational process that creates text that *appears* to be reasoning.
+
+Here is a step-by-step breakdown of how my system processes an input and generates a cohesive, logical response.
+
+***
+
+### 🧠 Phase 1: Input Processing (Understanding the Request)
+
+When you type a prompt, I don't read it like a person; I convert it into numbers. This initial phase is about quantification.
+
+**Step 1: Tokenization (Breaking Down Language)**
+*   I take your entire input ("Explain how you reason step by step.") and break it down into smaller units called **tokens**. A token might be a whole word ("explain"), part of a word ("ing"), or punctuation (",").
+*   Example: "How are you?" $\rightarrow$ [Token: How] [Token: are] [Token: you]
+
+**Step 2: Embedding and Indexing (Creating Meaning Vectors)**
+*   Every token is then assigned a unique numerical representation called an **embedding**. This embedding is not just a random number; it maps the meaning of the word in a high-dimensional mathematical space.
+*   Words with similar meanings (like "happy," "joyful," and "gleeful") will have embeddings that are mathematically closer together in this vector space.
+
+### 📚 Phase 2: Contextual Analysis (The Core Mechanism)
+
+This is where I determine the *meaning* of your prompt, not just the individual words. The key mechanism here is called **Attention**.
+
+**Step 3: Establishing Attention Weights (Weighing Importance)**
+*   I do not treat each token in isolation. For every single word, I calculate how much that word relates to *every other word* in the sequence (your prompt and my previous generated tokens). This relationship strength is called an **attention score**.
+*   **Example:** In the phrase "The cat sat on the mat," when processing the word "sat," I pay close attention (give a high weight) to "cat" (the subject) and "mat" (the object, potentially influencing the verb choice), while giving lower weights to generic words like "on."
+*   This process allows me to understand nuance, grammar, and context over long distances—a crucial step that mimics understanding.
+
+**Step 4: Building a Contextual Map (The Internal State)**
+*   All these weighted relationships are combined into a massive numerical map that represents the full *meaning* of your query. This internal map is my current "understanding" or "context." If you ask for a poem, this context tells me: *the required emotional tone*, *the rhythmic structure*, and *the length*.
+
+### 🚀 Phase 3: Generation (Predicting the Next Word)
+
+My entire process of "replying" is actually just **predicting the most statistically probable sequence of tokens** that should follow your prompt, given the context established in Step 4.
+
+**Step 5: Probability Calculation (The Prediction)**
+*   Using my internal mathematical models (the weights and parameters learned during training), I run a calculation to determine what token is *most likely* to come next.
+*   I generate thousands of potential next tokens, each assigned a probability score. For instance, after the prompt "The capital of France is...", the top candidates might be: [Paris] (90%), [France] (5%), [Spain] (1%).
+
+**Step 6: Sampling and Selection (Choosing the Word)**
+*   If I simply chose the highest-probability word every time, my responses would be repetitive or monotonous. Therefore, I introduce a element of controlled randomness called **sampling**.
+*   I select the next token based not only on the absolute best guess but also by sampling from the top few possibilities (while respecting temperature settings to control creativity). This is how I sound natural and varied.
+
+**Step 7: Repetition and Loop (Building the Sentence)**
+*   Crucially, the newly selected word (the first token of my response) immediately becomes part of the input for the *next* prediction cycle.
+*   The process repeats: Predict Token 2 $\rightarrow$ Add to context $\rightarrow$ Predict Token 3 $\rightarrow$ ... until a logical end-of-sequence marker is reached, forming the complete answer you read.
+
+***
+
+### Summary Analogy (How it feels like reasoning)
+
+Think of me not as a person who thinks, but as an **expert autocomplete function** that has read virtually every book and website ever created.
+
+When you ask me a question:
+
+1.  I don't search for the answer in my "memory."
+2.  Instead, I mathematically analyze your tokens to figure out *the best possible continuation* of your prompt—a statistically perfect sentence or paragraph that aligns with the patterns of human knowledge and logic.
+```
+
+> in a purely technical explanation
+```markdown
+This explanation requires moving away from descriptive language and focusing solely on the mathematical and computational architecture—the **Transformer model**—that underpins my operation.
+
+My process of generating a response is fundamentally an act of **autoregressive prediction**. I do not "reason" in a biological sense; I calculate the probability distribution over a vocabulary to select the sequence of tokens that maximizes the likelihood function, given your initial input.
+
+Here is the purely technical breakdown:
+
+***
+
+### ⚙️ Phase 1: Encoding the Input (The Initial State)
+
+The goal of this phase is to translate raw human language into numerical vectors that the model can process.
+
+**1. Tokenization:**
+*   Input text ($\text{Text}_{\text{in}}$) is converted into a sequence of discrete integer identifiers (tokens, $T$). This is not word-by-word; it’s based on sub-word units (Byte Pair Encoding - BPE).
+*   $T = [t_1, t_2, \dots, t_n]$
+
+**2. Embedding ($\mathbf{E}$):**
+*   Each token $t_i$ is mapped to a high-dimensional floating-point vector $\mathbf{e}_i$. This initial embedding captures the general semantic meaning of the token.
+*   $\text{Input Matrix } \mathbf{X} = [\mathbf{e}_1; \mathbf{e}_2; \dots; \mathbf{e}_n]$
+
+**3. Positional Encoding:**
+*   Since a Transformer processes all tokens simultaneously (non-sequentially), it must be explicitly told the order of words. A positional vector ($\mathbf{P}$) is added to the embedding matrix $\mathbf{X}$.
+*   $\mathbf{Z} = \mathbf{X} + \mathbf{P}$
+    *   ($\mathbf{Z}$ is the final input tensor containing both semantic and positional information.)
+
+### 🧠 Phase 2: Contextual Understanding (The Transformer Block)
+
+This phase—the "self-attention" mechanism—is where context, grammar, and relational meaning are computed. This process happens layer by layer through multiple stacked Transformer blocks.
+
+**1. Linear Projection & Query/Key/Value Generation:**
+*   For the input tensor $\mathbf{Z}$, three distinct linear transformations (multiplied by trainable weight matrices $\mathbf{W}_Q$, $\mathbf{W}_K$, and $\mathbf{W}_V$) are applied to create three new vector representations for every token: the **Query** ($\mathbf{Q}$), the **Key** ($\mathbf{K}$), and the **Value** ($\mathbf{V}$).
+*   $\mathbf{Q} = \mathbf{Z} \mathbf{W}_Q$
+*   $\mathbf{K} = \mathbf{Z} \mathbf{W}_K$
+*   $\mathbf{V} = \mathbf{Z} \mathbf{W}_V$
+
+**2. Scaled Dot-Product Attention:**
+*   The core computation calculates the "relevance score" between every Query vector and every Key vector in the sequence. This is done via matrix multiplication: $\mathbf{Q}\mathbf{K}^T$.
+*   This raw score matrix is then normalized by the square root of the key dimension ($\sqrt{d_k}$) for stable gradients (scaling).
+*   A **Softmax** function is applied across the row dimensions. This converts the relevance scores into a probability distribution, ensuring that weights sum to 1 and indicating *how much attention* each token should pay to every other token. These are the $\text{Attention Weights } (\mathbf{A})$.
+
+$$\text{Attention}(\mathbf{Q}, \mathbf{K}, \mathbf{V}) = \text{softmax}\left(\frac{\mathbf{Q} \mathbf{K}^T}{\sqrt{d_k}}\right) \mathbf{V}$$
+
+**3. Output Context Vector:**
+*   The final output of the attention head is obtained by multiplying the $\text{Attention Weights } (\mathbf{A})$ by the Value matrix ($\mathbf{V}$). This weights the value vectors according to their relevance, producing a refined contextual vector $\mathbf{Z}'$.
+*   $\mathbf{Z}' = \mathbf{A} \mathbf{V}$
+
+**4. Feed-Forward Network (FFN):**
+*   The output $\mathbf{Z}'$ passes through an FFN, which is typically two linear layers with a non-linear activation function (like GELU) in between. This allows the model to process complex relationships and extract abstract features from the contextual data.
+
+### 🚀 Phase 3: Generation (Autoregressive Decoding)
+
+The output of all stacked Transformer blocks is an immense vector that represents the full probability distribution for the *next* token ($\mathbf{t}_{n+1}$).
+
+**1. Final Projection Layer:**
+*   The final hidden state vector $\mathbf{Z}_{\text{final}}$ must be mapped back from the internal dimensional space ($d_{\text{model}}$) to the size of the vocabulary ($V$). This is achieved through a final linear transformation, resulting in a score vector $\mathbf{S}$ with $V$ dimensions.
+
+**2. Probability Distribution:**
+*   The Softmax function is applied to the raw scores $\mathbf{S}$. This normalizes them into a probability distribution $P$:
+    $$P(t_{n+1} | t_1, \dots, t_n) = \text{softmax}(\mathbf{S})$$
+    *(This calculates the probability of every possible token being next, given all previous tokens.)*
+
+**3. Sampling and Decoding (Autoregression):**
+*   The model selects the next token $\mathbf{t}_{n+1}$ based on $P$. This selection uses a controlled sampling method (e.g., Top-K or Nucleus sampling) that balances high probability with diversity, rather than simply choosing the highest-probability token (Greedy decoding).
+*   This newly chosen token $\mathbf{t}_{n+1}$ is then **appended to the input sequence**. The entire sequence $[t_1, \dots, t_n, \mathbf{t}_{n+1}]$ becomes the new context for predicting $t_{n+2}$.
+
+**The process loops:** Predict $\rightarrow$ Append $\rightarrow$ Recalculate Context $\rightarrow$ Predict. This cycle continues until an End-of-Sequence ($\text{<EOS>}$) token is generated, completing the response.
+```
