@@ -1,24 +1,31 @@
 # Hands-On Machine Learning
-* Chollet, Francois. **Deep Learning with Python**. 2021, 2. edition. Manning.
-* Géron, Aurélien. **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems**. 2022, 3. edition. O’Reilly.
-* Ganegedara, Thushan. **TensorFlow in Action**. 2022. Manning.
+* [Géron, Aurélien. **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems**. 2022, 3. edition. O’Reilly](../../books/infrastructure/book.Hands-On%20Machine%20Learning%20with%20Scikit-Learn,%20Keras,%20and%20TensorFlow.md)
+* [Chollet, Francois. **Deep Learning with Python**. 2021, 2. edition. Manning](../../books/infrastructure/book.Deep%20Learning%20with%20Python.md)
+* [Ganegedara, Thushan. **TensorFlow in Action**. 2022. Manning](../../books/infrastructure/book.TensorFlow%20in%20Action.md)
 
 # Dependencies
 
-| Dependency          | Install                                      | Description                                           |
-| :------------------ | :------------------------------------------- | :---------------------------------------------------- |
-| Poetry              | `poetry new hands-on-ml`                     | `poetry env activate` `source .venv/Scripts/activate` |
-| autopep8            | `poetry add autopep8 --group dev`            |                                                       |
-| pylint              | `poetry add pylint --group dev`              |                                                       |
-| scikit-learn        | `poetry add scikit-learn`                    |                                                       |
-| TensorFlow          | `poetry add tensorflow`                      | `poetry add tensorboard-plugin-profile --group dev`   |
-| TensorFlow datasets | `poetry add tensorflow-datasets --group dev` |                                                       |
-| Keras               | `poetry add keras`                           |                                                       |
-| pydot               | `poetry add pydot --group dev`               |                                                       |
-| pandas              | `poetry add pandas`                          | `poetry add pandas-stubs --group dev`                 |
-| Matplotlib          | `poetry add matplotlib`                      |                                                       |
-| Jupyter             | `poetry add jupyter`                         | Jupyter Notebook, JupyterLab, and the IPython Kernel  |
-| Pillow              | `poetry add Pillow`                          |                                                       |
+```shell
+# uv new hands-on-ml
+uv python install 3.12
+uv python pin 3.12
+uv init
+
+uv add --dev autopep8
+uv add --dev pylint
+uv add scikit-learn
+uv add tensorflow
+uv add --dev tensorboard-plugin-profile
+uv add --dev tensorflow-datasets
+uv add keras
+uv add --dev pydot
+uv add pandas
+uv add --dev pandas-stubs
+uv add matplotlib
+uv add jupyter
+uv add Pillow
+```
+
 
 TensorFlow type stubs:
 ```shell
