@@ -22,6 +22,7 @@ books/articles:
 - Guide to NumPy, 2006
 - Array programming with NumPy, 2020
 - Python for Data Analysis: Data Wrangling with pandas, NumPy & Jupyter, 2022
+- [Python Data Science Handbook, 2nd Edition, 2022](../../books/infrastructure/book.Python%20Data%20Science%20Handbook.md)
 
 # Library Organization
 * core: `ndarray` data structure, universal functions.
@@ -728,6 +729,30 @@ catrogory notation
 | calculation | var          |             |
 | convetsion  | view         |             |
 
+## data type
+
+```python
+bool_		    # Boolean (True or False) stored as a byte
+int_		    # Default integer type (same as C long; normally either int64 or int32)
+intc		    # Identical to C int (normally int32 or int64)
+intp		    # Integer used for indexing (same as C ssize_t; normally either int32 or int64)
+int8		    # Byte (–128 to 127)
+int16		    # Integer (–32768 to 32767)
+int32		    # Integer (–2147483648 to 2147483647)
+int64		    # Integer (–9223372036854775808 to 9223372036854775807)
+uint8		    # Unsigned integer (0 to 255)
+uint16		  # Unsigned integer (0 to 65535)
+uint32		  # Unsigned integer (0 to 4294967295)
+uint64		  # Unsigned integer (0 to 18446744073709551615)
+float_		  # Shorthand for float64
+float16		  # Half-precision float: sign bit, 5 bits exponent, 10 bits mantissa
+float32		  # Single-precision float: sign bit, 8 bits exponent, 23 bits mantissa
+float64		  # Double-precision float: sign bit, 11 bits exponent, 52 bits mantissa
+complex_	  # Shorthand for complex128
+complex64	  # Complex number, represented by two 32-bit floats
+complex128	# Complex number, represented by two 64-bit floats
+```
+
 ## array indexing
 
 `X[obj]`
@@ -798,15 +823,15 @@ deprecated
 - `numpy.matlib`: functions supporting matrix instances
 
 
-# `numpy.char`
+## `numpy.char`
 
 character array
 
-# `numpy.core`
+## `numpy.core`
 
 
-# `numpy.ctypeslib`
-# `numpy.dtypes`
+## `numpy.ctypeslib`
+## `numpy.dtypes`
 * https://numpy.org/doc/stable/reference/arrays.dtypes.html
 
 ```python
@@ -887,11 +912,11 @@ Array-protocol type strings:
 | `'U'`        | Unicode string                          |
 | `'V'`        | raw data (`void`)                       |
 
-# `numpy.exceptions`
-# `numpy.f2py`
-# `numpy.fft`
-# `numpy.lib`
-# `numpy.linalg`
+## `numpy.exceptions`
+## `numpy.f2py`
+## `numpy.fft`
+## `numpy.lib`
+## `numpy.linalg`
 
 * `@` operator
 * matrix and vector product
@@ -900,15 +925,15 @@ Array-protocol type strings:
 * norms
 * inverting matrix
 
-# `numpy.ma`
+## `numpy.ma`
 
 Masked Arrays
 
-# `numpy.matlib`
+## `numpy.matlib`
 
-# `numpy.polynomial`
+## `numpy.polynomial`
 
-# `numpy.random`
+## `numpy.random`
 
 * `permutation`: Return a random permutation of a sequence, or return a permuted range
 * `shuffle`: Randomly permute a sequence in place
@@ -922,17 +947,17 @@ Masked Arrays
 * `gamma`: Draw samples from a gamma distribution
 * `uniform`: Draw samples from a uniform [0, 1) distribution
 
-# `numpy.rec`
+## `numpy.rec`
 
 record array
 
-# `numpy.strings`
+## `numpy.strings`
 
-# `numpy.test`
+## `numpy.test`
 
-# `numpy.testing`
+## `numpy.testing`
 
-# `numpy.typing`
+## `numpy.typing`
 
 # FAQ
 * [convert string representation of array to numpy array in python](https://stackoverflow.com/questions/38886641/convert-string-representation-of-array-to-numpy-array-in-python)

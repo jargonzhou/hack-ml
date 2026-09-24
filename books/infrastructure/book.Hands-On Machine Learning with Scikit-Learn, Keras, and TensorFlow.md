@@ -426,3 +426,12 @@
 
 
 # See Also
+
+code
+- https://github.com/ageron/handson-ml3
+
+tools
+- NumPy, Pandas, Matplotlib
+- Scikit-Learn
+- TensorFlow
+- Keras

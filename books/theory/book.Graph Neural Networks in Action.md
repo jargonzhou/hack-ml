@@ -205,3 +205,28 @@
 tools
 - pstuil: Python system and process utilities library
 - pynvml: Python bindings for NVIDIA Management Library
+
+Graph datasets and semantic models
+- Open Graph Benchmark (OGB)
+  - Graph datasets and benchmarks
+  - Social networks, drug discovery
+  - https://ogb.stanford.edu/
+- GraphChallenge Datasets
+  - Graph datasets
+  - Network science, biology
+  - https://graphchallenge.mit.edu/data-sets
+- Network Repository 
+  - Graph datasets 
+  - Network science, bioinformatics, machine learning, data mining, physics, and social science - http://networkrepository.com/
+- SNAP Datasets 
+  - Graph datasets 
+  - Social networks, network science, road networks, commercial networks, finance 
+  - http://snap.stanford.edu/data/
+- Schema.org 
+  - Semantic data model 
+  - Internet web pages 
+  - https://schema.org/
+- Wikidata 
+  - Semantic data model 
+  - Wikipedia pages 
+  - www.wikidata.org/

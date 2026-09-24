@@ -24,23 +24,24 @@ uv add --dev pandas-stubs
 uv add matplotlib
 uv add jupyter
 uv add Pillow
+uv add seaborn
 ```
 
 
 TensorFlow type stubs:
 ```shell
-$ poetry add tensorflow=2.18.0
+$ uv add tensorflow=2.18.0
 # version is 2.18.0
-$ poetry add types-tensorflow --group dev
+$ uv add --dev types-tensorflow
 
 # handle: No module named 'tensorflow'
 # https://pypi.org/project/tensorflow-intel/
-$ poetry add tensorflow-intel=2.18.0
+$ uv add tensorflow-intel=2.18.0
 
 # tensorflow/__init__.py
 # Import "distutils" could not be resolved from source Pylance reportMissingModuleSource
 # If using Python 3.12 or later, distutils is no longer part of the standard library.
-$ poetry add standard-distutils --group dev
+$ uv add --dev standard-distutils
 ```
 
 TensorBoard: 

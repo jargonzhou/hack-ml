@@ -4,6 +4,35 @@
 actions
 - [datasets.ipynb](./datasets.ipynb)
 
+# Local
+
+- `D:/datasets`
+  - PythonDataScienceHandbook: https://github.com/jakevdp/PythonDataScienceHandbook
+  - python-for-data-analysis: https://github.com/wesm/pydata-book
+  - hands_on_ml: https://github.com/ageron/data
+```shell
+$ tree -d -L 2
+.
+├── PythonDataScienceHandbook
+│   ├── notebooks
+│   ├── notebooks_v1
+│   ├── notebooks_v2
+│   ├── tools
+│   └── website
+├── hands_on_ml
+│   ├── housing
+│   ├── images
+│   ├── inception
+│   ├── jsb_chorales
+│   ├── lifesat
+│   ├── ridership
+│   ├── titanic
+│   └── videos
+└── python-for-data-analysis
+    └── pydata-book
+```
+
+
 # Kaggle
 * [S&P 500 stock data](https://www.kaggle.com/datasets/camnugent/sandp500): Historical stock data for all current S&P 500 companies
 * [Iris Species](https://www.kaggle.com/datasets/uciml/iris): 鸢尾花数据集
